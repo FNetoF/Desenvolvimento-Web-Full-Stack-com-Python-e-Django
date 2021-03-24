@@ -25,5 +25,4 @@
 	<li><strong>Python<strong></li>
 	<li><strong>Django<strong></li>
 </ul>
-##### Instrutor - Jamilton Damasceno.
-
+<h4>Instrutor - Jamilton Damasceno.</h4>
