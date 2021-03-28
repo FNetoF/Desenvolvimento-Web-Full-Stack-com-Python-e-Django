@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tabelas</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <!--border="1" - borda de um pixel 
+        <tr></tr> - defini as linhas da tabela 
+        <td></td> - defini os dados da tabela 
+        <th></th> - cabeçalho da tabela 
+
+        ex:
+        <td><img src="imagens/ferrari.jpg" width="100%"></td>
+        <td><a href="">Clique</a></td>
+    -->
+    <h2>Produtos</h2>
+    <table border="2" width="100%">
+        <tr>
+            <th>Código</th>
+            <th>Produto</th>
+            <th>Preço</th>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>Notebook</td>
+            <td>R$ 5.899,99</td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>Celular</td>
+            <td>R$ 3.499,99</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Desconto</td>
+            <td colspan="2">cupom1 -R$ 250</td>
+        </tr>
+        <tr>
+            <td colspan="2">cupom2 -R$ 100</td>
+        </tr>
+        <tr>
+            <td>Total:</td>
+            <td colspan="2">R$ 9.049,98</td>
+        </tr>
+    </table>
+</body>
+
+</html>
