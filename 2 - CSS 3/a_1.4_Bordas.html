@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bordas</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        #conteudo {
+            /*border -> define três valores: espessura, tipo da borda, cor.*/
+            /*border: 1px solid red;*/
+            /*Com 4 valores -> Altera sempre no sentido horário.*/
+            border-color: red green yellow blue;
+            border-width: 15px 10px 5px 1px;
+            border-style: solid dotted dashed outset;
+        }
+
+        #conteudo1 {
+            /*Com 2 valores -> Vai ser aplicado primeiro na parte inferior e superior, o segundo - laterais direita e esquerda*/
+            border-color: rebeccapurple black;
+            border-width: 15px 10px;
+            border-style: dashed dotted;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="conteudo">
+        bordas<br>
+        bordas<br>
+        bordas<br>
+    </div>
+    <br><br><br>
+    <div id="conteudo1">
+        Felipe<br>
+        Felipe<br>
+        Felipe<br>
+    </div>
+</body>
+
+</html>
+
+<!--Tpos de bordas -> https://www.w3schools.com/css/css_border.asp -->

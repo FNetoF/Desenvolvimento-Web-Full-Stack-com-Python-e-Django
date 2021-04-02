@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Div e span</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        #topo {
+            background: blue;
+        }
+
+        #conteudo {
+            background: red;
+        }
+
+        #rodape {
+            background: green;
+        }
+
+        #assinatura {
+            background: pink;
+        }
+
+        .produto {
+            background: gray;
+            margin: 10px;
+        }
+
+        .azul {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <!--<div></div> -> Vai utilizar para dividir o seu site em conteúdos que você consegue formatar utilizando o CSS. A div é um elemento do tipo Block, os conteúdos ficam um abaixo do outro.
+        Ela é utilizada para dividir o seu site em partes e cria um contêiner para que você consiga agrupar elementos visuais do seu site.-->
+    <div id="topo">
+        <img src="imagens/amazon.png" width="200">
+        <ul>
+            <li>Home</li>
+            <li>Produtos</li>
+            <li>Contato</li>
+        </ul>
+    </div>
+
+    <div id="conteudo">
+        <div class="produto">
+            Produto 1
+        </div>
+
+        <div class="produto">
+            Produto 2
+        </div>
+
+        <div class="produto">
+            Produto 3
+        </div>
+    </div>
+
+    <div id="rodape">
+        Todos os <span class="azul">direitos</span> reservados
+    </div>
+
+    <!--<span></span> -> É chamado de elemento do tipo elaine, ele agrupa os sus elementos linha a linha. E também aplica uma formatação específica em texto.-->
+    <span id="assinatura">
+        Felipe
+    </span>
+    <span>
+        Neto
+    </span>
+</body>
+
+</html>
