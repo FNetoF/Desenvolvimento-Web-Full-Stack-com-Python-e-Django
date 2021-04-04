@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Cor e imagem de fundo</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        /*.fundo {
+            background-color: #4000FF;
+            color: white;
+        }*/
+
+        /*background-repeat -> Defini como que você que seja feito a repetição*/
+        body {
+            /*background-image: url('imagens/yoshi.png');*/
+
+            /*repeat-x, repeat-y, repeat, no-repeat*/
+            
+            background-repeat: no-repeat;
+
+            /*scrool, fixed*/
+            background-attachment: fixed;
+
+            /*Pimeiro valor: left, center, right
+              Segundo valor: top, center, bottom*/
+            background-position: center bottom;
+        }
+
+        .fundo {
+            background: blue url('imagens/yoshi.png') repeat-x fixed top;
+        }
+    </style>
+</head>
+
+<body class="fundo">
+    <h1>Conteúdo de Título 1</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in risus sit amet neque finibus lacinia vel ac
+        lorem. Cras in erat viverra, feugiat libero at, interdum eros. Vivamus venenatis felis vitae leo posuere
+        tincidunt. Quisque id ultrices tortor. Ut quis auctor justo. In scelerisque, mi non mattis lacinia, velit ligula
+        tempus orci, sit amet blandit lacus nibh eu lacus. Aenean consequat pharetra arcu, venenatis fringilla risus
+        suscipit ut.
+    </p>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in risus sit amet neque finibus lacinia vel ac
+        lorem. Cras in erat viverra, feugiat libero at, interdum eros. Vivamus venenatis felis vitae leo posuere
+        tincidunt. Quisque id ultrices tortor. Ut quis auctor justo. In scelerisque, mi non mattis lacinia, velit ligula
+        tempus orci, sit amet blandit lacus nibh eu lacus. Aenean consequat pharetra arcu, venenatis fringilla risus
+        suscipit ut.
+    </p>
+</body>
+
+</html>
