@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Elementos flutuantes Parte 2</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <style type="text/css">
+
+        #principal {
+            border: 1px solid red;
+            background: green;
+        }
+        .conteudo {
+            background: blue;
+            border: 1px solid gray;
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            float: left;
+        }
+
+        /*.conteudo1 {
+            background: red;
+            border: 1px solid gray;
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            /*float -> Elemento flutuante/
+            float: left;
+        }*/
+
+        .conteudo-zero {
+            background: red;
+            border: 1px solid gray;
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+        }
+
+        .clear {
+            /*Limpar o fluxo flutuante*/
+            clear: left;
+            /*Usando o 'both' Limpa dos dois lados da tela*/
+        }
+    </style>
+</head>
+
+<body>
+    <div id="principal">
+        <div class="conteudo">
+            contéudo 1
+        </div>
+        <div class="conteudo">
+            contéudo 2
+        </div>
+        <div class="conteudo">
+            contéudo 3
+        </div>
+        <!--Para limpar o fundo da div, ele vai limpar o fluxo flutuante e com isso ele vai espandir-->
+        <div class="clear"></div>
+    </div>
+    <p class="clear">
+        In eu dolor accumsan, vestibulum lacus eget, porttitor nisl. Interdum et malesuada fames ac ante ipsum primis in
+        faucibus. Integer tincidunt ipsum et accumsan condimentum. Nunc bibendum finibus nulla quis bibendum. Duis at
+        egestas nisi. Mauris facilisis ut mi quis condimentum. Sed vitae aliquam mi. Maecenas nec quam porttitor,
+        porttitor nibh eu, tristique mi. Aliquam id neque convallis, condimentum odio et, ullamcorper turpis. In et mi
+        vitae mauris laoreet molestie. Aenean volutpat, felis accumsan tincidunt condimentum, nibh nisl suscipit mauris,
+        et sodales ante mauris at justo.
+    </p>
+</body>
+
+</html>
