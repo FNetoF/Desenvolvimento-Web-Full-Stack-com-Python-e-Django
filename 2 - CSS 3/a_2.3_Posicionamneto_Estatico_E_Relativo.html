@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Posicionamentos (static, relative, absolute e fixed)</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        body {
+            background: #007fc7;
+        }
+
+        p {
+            width: 300px;
+        }
+
+        #conteiner {
+            background: #FFF;
+            width: 800px;
+            margin: 10px auto;
+            /*auto - serve para centralizar*/
+            padding: 10px;
+            left: 80px;
+        }
+
+        .relative {
+            border: 1px solid red;
+            position: relative;
+            /*Propriedade de deslocamento: top, right, bottom, left
+            valores positivo vai pra baixo, valores negativos ele vai pra cima*/
+            /*top: 20px;
+            left: 40px;*/
+            bottom: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="conteiner">
+        <h1>Posicionamento</h1>
+        <p>
+            P1 Mauris et dapibus felis. Curabitur at justo est. Orci varius natoque penatibus et magnis dis parturient
+            montes, nascetur ridiculus mus. Quisque convallis dolor et arcu ullamcorper porta.
+        </p>
+        <p class="relative">
+            P2 Mauris et dapibus felis. Curabitur at justo est. Orci varius natoque penatibus et magnis dis parturient
+            montes, nascetur ridiculus mus. Quisque convallis dolor et arcu ullamcorper porta.
+        </p>
+        <p>
+            P3 Mauris et dapibus felis. Curabitur at justo est. Orci varius natoque penatibus et magnis dis parturient
+            montes, nascetur ridiculus mus. Quisque convallis dolor et arcu ullamcorper porta.
+        </p>
+    </div>
+</body>
+
+</html>
