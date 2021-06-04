@@ -1,0 +1,41 @@
+/**************************************
+Estilizando formulários */
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+fieldset {
+    margin: 1em 0; /*Espaçamento --- 1em=topo 0=laterais*/
+    padding: 1em; /*Espaçamento*/
+    border: 1px solid #ccc; /*Cor da borda*/
+    background: #f8f8f8; /*Cor de fundo*/
+}
+
+legend {
+    font-weight: bold; /*Cor mas escura*/
+}
+
+label { 
+    display: block; /*Acima da caixa de texto*/
+    cursor: pointer; /*maozinha do mause*/
+}
+
+/*Formatar as caixas de texto*/
+input { /*input[type="text"]*//*Seletor de atributo*/
+    width: 250px; /*Tamanho da caixa de texto*/
+}
+
+textarea {
+    width: 20em; /*Largura*/
+    height: 10em; /*altura*/
+}
+
+input.radio, input.checkbox, input.submit {
+    width: auto; /*Definindo a largura padrão*/
+}
+
+.radio {
+    margin-right: 1em; /*Espaçamento da bolinha*/
+}
+

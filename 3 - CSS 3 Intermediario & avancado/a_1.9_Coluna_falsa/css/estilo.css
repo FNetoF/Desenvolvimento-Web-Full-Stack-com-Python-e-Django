@@ -1,0 +1,88 @@
+/**************************************
+Coluna Falsa*/
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #f2f2f2;
+}
+
+#container {
+    width: 920px; /*720px*/
+    margin: 0 auto;
+    background: #fff url(../img/coluna.png) repeat-y left top; /*coluna falsa*/
+    min-width: 720px; /*Para definir uma largura mínima*/
+    max-width: 1280px; /*Para definir uma largura máxima*/
+}
+
+#marca {
+    height: 100%;
+    height: 200px;
+    background: #225992 url(../img/cabecalho2.jpg) no-repeat center;
+    text-align: center;
+    line-height: 200px;
+}
+
+/*#imagem {
+    width: 90%;
+    overflow: hidden;
+}*/
+
+#conteudo {
+    width: 75%; /*520px*/ /*520 x 100= 52000 / 700 = 74.24*/
+    float: right;
+}
+
+#navegacao {
+    width: 23%; /*180px*/ /*180 x 100= 18000 /700 = 25,71*/
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /*background: #d1d1d1*/
+}
+
+#conteudo-principal {
+    width: 64%; /*320px;*/ /*64%*/
+    float: left;
+}
+
+img.img-noticia { /*Resuzir o tamanho da imagem*/
+    width: 90%;
+    padding: 2%;
+}
+
+#conteudo-secundario {
+    width: 34%; /*180px;*/ /*180 x 100= 18000 /500 = 36*/
+    float: right;
+    background: #d1d1d1;
+    max-width: 600px;
+}
+
+#conteudo-secundario h1,
+#conteudo-secundario h2,
+#conteudo-secundario h3,
+#conteudo-secundario p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#navegacao ul {
+    list-style-type: none;
+}
+
+#navegacao li a {
+    text-decoration: none;
+}
+
+#rodape {
+    clear: both;
+    background: #c4c4c4;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
