@@ -1,0 +1,76 @@
+/**************************************
+Arredondamento com imagens */
+
+.caixa {
+    width: 400px; /*Largura*/
+    background: #dedede url(../img/topo.png) no-repeat left top;
+}
+
+.caixa h2 {
+    padding: 10px 20px 0px 20px; /*superor - lateral direita - inferior - lateral esquerda*/
+}
+
+.caixa p {
+    padding: 0px 20px 20px 20px; /*superor - lateral direita - inferior - lateral esquerda*/
+    background: url(../img/baixo.png) no-repeat left bottom;
+}
+
+
+
+.caixa1 {
+    width: 400px; /*Largura*/
+    background: #dedede url(../img/topo2.png) no-repeat left top;
+}
+
+.caixa1 h2 {
+    padding: 10px 20px 0px 20px; /*superor - lateral direita - inferior - lateral esquerda*/
+}
+
+.caixa1 p {
+    padding: 0px 20px 20px 20px; /*superor - lateral direita - inferior - lateral esquerda*/
+    background: url(../img/baixo2.png) no-repeat left bottom;
+}
+
+
+
+.caixa2 {
+    width: 400px; /*Largura*/
+    background: #dedede url(../img/fundo-arredondamento.png) repeat-y;
+}
+
+.caixa2 h2 {
+    padding: 10px 20px 0px 20px; /*superor - lateral direita - inferior - lateral esquerda*/
+    background:url(../img/topo2.png) no-repeat left top; /*superior*/
+}
+
+.caixa2 p {
+    padding: 0 20px; /*Superior e Inferior - Laterais esquerda e direita*/
+}
+
+.caixa2 .ultimo {
+    background: url(../img/baixo2.png) no-repeat left bottom;
+    padding-bottom: 20px; /*Espaço na parte inferior*/
+}
+
+
+
+.caixa3 {
+    width: 400px; /*Largura*/
+    background: #dedede url(../img/fundo-arredondamento.png) repeat-y;
+}
+
+.caixa3 h2 {
+    padding: 10px 20px 0px 20px; /*superor - lateral direita - inferior - lateral esquerda*/
+    background:url(../img/topo2.png) no-repeat left top; /*superior*/
+}
+
+.caixa3 p {
+    padding: 0 20px; /*Superior e Inferior - Laterais esquerda e direita*/
+    margin-bottom: 0;/*Espaçamento inferior*/
+}
+
+.caixa3 .ultimo {
+    background: url(../img/baixo2.png) no-repeat left bottom;
+    width: 400px; /*lagura*/
+    height: 24px; /*altura*/
+}
