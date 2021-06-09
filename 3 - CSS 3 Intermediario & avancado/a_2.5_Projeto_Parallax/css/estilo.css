@@ -1,0 +1,79 @@
+/* Configuração padrão da página
+-----------------------------------*/
+
+body, html {
+    margin: 0;
+    font: 16px "Lato", sans-serif;
+    color: #777; /*Cor das palavras (padrão)*/
+    height: 100%; /*O truque do Parallax*/
+    /*border: 1px solid red;*/
+}
+
+.conteudo {
+    color: #777; /*Cor das palavras*/
+    background-color: white; /*Cor de fundo*/
+    text-align: justify; /*Texto justificado.*/
+    padding: 50px 80px; /*50 = Superior e Inferior - 80 = Laterais esquerda e direita*/
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #111; /*Cor do título*/
+    text-align: center; /*Título justificado.*/
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+
+/*Efeito Parallax
+--------------------*/
+
+.caixa1, .caixa2, .caixa3, .caixa4 {
+    /*border: 1px solid red;*/
+    position: relative /*Para usar uma possição absoluta*/;
+    height: 100%; /*Altura*/
+    opacity: 0.9; /*Opacidade nas imagens*/
+    background-repeat: no-repeat; /*Não repete a imagem*/
+    background-size: cover; /*Coloca a imagem em 100% da tela*/
+    background-position: center; /*Centraliza a imagem*/
+    background-attachment: fixed; /*Imagem fica fixa. O truque do Parallax*/
+}
+
+.caixa1 {
+    background-image: url(../img/imagem1.jpg);
+}
+
+.caixa2 {
+    background-image: url(../img/imagem2.jpg);
+}
+
+.caixa3 {
+    background-image: url(../img/imagem3.jpg);
+}
+
+.caixa4 {
+    background-image: url(../img/imagem4.jpg);
+}
+
+
+/*Formatando Texto
+--------------------*/
+.conteudo-titulo {
+    position: absolute; /*Para centralizar o texto*/
+    left: 0; /*Texto a esquerda*/
+    top: 45%; /*Centraliza no centro*/
+    width: 100%; /*Lagura do título*/
+    /*background: red; */
+    text-align: center; /*Centraliza o título*/
+    text-transform: uppercase;
+}
+
+.conteudo-titulo span.titulo {
+    color: #fff; /*Cor das palavras*/
+    background-color: #111; /*Cor de fundo*/
+    padding: 18px; /*Espaçamento para todos os lados*/
+    font-size: 25px; /*Tamanho da fonte*/
+    letter-spacing: 5px; /*espaçamento entre as letras*/
+}
