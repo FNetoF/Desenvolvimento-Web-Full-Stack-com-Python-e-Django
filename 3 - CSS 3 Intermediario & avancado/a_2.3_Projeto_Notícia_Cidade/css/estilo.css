@@ -1,0 +1,288 @@
+/* Estrutura do site
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #fff url("../img/fundo.png") repeat-x; /*Repitir apenas na horizontal*/
+}
+
+#container {
+    width: 750px; /*largura do layout*/
+    margin: 0px auto; /*Centraliza*/
+}
+
+#topo {
+    height: 150px; /*Altura*/
+    background: url(../img/detalhe-topo.png) no-repeat right top;
+    padding-top: 25px;/*Espaçamento do topo*/
+    /*border: 1px solid red;*/
+}
+
+.logo {
+    width: 152px; /*Largura*/
+    height: 66px;/*Altura*/
+    background: url(../img/logo.png) no-repeat center;
+    text-indent: -2500px; /*indentar o conteído*/
+}
+
+
+/*Barra de navegação
+*/
+
+a:link, a:visited { /*Cor nos link*/
+    color: #b10333;
+    padding:2px;
+}
+
+a:hover { /*Cor de fundo nos link*/
+    color: #e50040;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#topo ul {
+    margin-top: 30px; /*Espaçamento superior*/
+    background: #b10333;
+    float: left; /*Ixibir a cor*/
+}
+
+/*Seleciona o li, que estar dentro de ul, que estão dentro de topo*/
+#topo ul li {
+    float: left; /*coloca lado a lado*/
+}
+
+#topo ul a {
+    font-size: 0.9em; /*Tamanho da letra*/
+    display: block;
+    padding: 0.5em 1.5em; /*0.5 = Superior e Inferior - 1.5 = Laterais esquerda e direita*/
+    line-height: 2.1em; /*Aomentou a altura da barra*/
+    text-decoration: none;
+    color: #fff; /*Cor das palavras*/
+    background: url(../img/divisor.png) no-repeat left center; /*add o divisor*/
+}
+
+/*Removendo o divisor no começo do menu*/
+#topo ul .primeiro a {
+    background: none;
+}
+
+/*Deixar a barra de navegação selecionada*/
+#topo ul a:hover {
+    color: #69001d;
+}
+
+/*Marcando quando a página de navegação tiver selecionada*/
+body.home #navegacao a#home, 
+body.brasil #navegacao a#brasil, 
+body.international #navegacao a#international, 
+body.fotos #navegacao a#fotos {
+    color: #fff; /*Cor da palavra*/
+    background: #de003e; /*Cor de fundo*/
+    cursor: text; /*alterando o cursor*/
+}
+
+
+/* Configura layout de três colunas
+*/
+
+#conteudo {
+    margin-top: 60px; /*Aplicando a margin superior para empurar a área do conteúdo para baixo*/
+    background: #f5f5f5;
+}
+
+/*270 x 2 = 540 /*as duas colunas maiores
+540 + 180 = 720 tabela menor (menu_Lateral)
+720 - 750 = 30 de espaçamento (espaçamento de 15)*/
+
+#lateral {
+    width: 180px; /*Largura*/
+    float: left; /*coloca lado a lado - a direita*/
+    margin: 0 0 20px -750px; /*superor - lateral direita - inferior - lateral esquerda*/
+    /*background: yellow;*/
+}
+
+/*#tres-colunas #primario {
+    width: 270px; /*Largura
+    float: left; /*coloca lado a lado - a direita
+    margin: 0 0 20px 195px; /*superor - lateral direita - inferior - lateral esquerda
+}*/
+
+#primario {
+    width: 270px; /*Largura*/ /*555 + 15= 570 + 180= 750*/
+    float: left; /*coloca lado a lado - a direita*/
+    margin: 0 0 20px 195px; /*superor - lateral direita - inferior - lateral esquerda*/
+}
+
+#duas-colunas #primario {
+    width: 555px; /*Largura*/ /*555 + 15= 570 + 180= 750*/
+    /*float: left; /*coloca lado a lado - a direita*/
+    /*margin: 0 0 20px 195px; /*superor - lateral direita - inferior - lateral esquerda*/
+    /*background: blue;*/
+}
+
+#uma-coluna #primario {
+    width: 750px; /*Largura*/
+    /*float: left; /*coloca lado a lado - a direita*/
+    margin: 0 0 20px 0px; /*superor - lateral direita - inferior - lateral esquerda*/
+    /*background: blue;*/
+}
+
+#secundario {
+    width: 270px; /*Largura*/
+    float: left; /*coloca lado a lado - a direita*/
+    margin: 0 0 20px 15px; /*superor - lateral direita - inferior - lateral esquerda*/
+}
+
+
+/* Caixa 
+*/
+.caixa {
+    margin: 10px 0; /* 10 pxSuperior e Inferior - 0 nas laterais*/ /*Espaçamento entre as caixas*/
+    padding: 5px; /*Espaçamento para todos os lados */
+    background: #f3f3f3 url(../img/fundo-caixa.png); /*Cor de fundo / imagem de fundo*/
+}
+
+h2 {
+    font-size: 1em; /*Tamanho da fonte*/
+    background: #294c71; /*Cor de fundo*/
+    color:#fff; /*Cor da palavra*/
+    padding: 5px; /*Espaçamento para todos os lados */
+}
+
+.caixa-conteudo {
+    background: #fff; /*Cor de fundo*/
+    padding: 5px; /*Espaçamento para todos os lados */
+    margin-top: 5px; /*Espaçamento no topo*/
+}
+
+
+/* Formatar menus laterais
+*/
+#lateral ul a {
+    font-size: 0.9em; /*Tamanho da fonte*/
+    padding: 3px; /*Espaçamento para todos os lados */
+    display: block;
+    line-height: 30px; /*Espaçamento na altura */
+    color: #000; /*Cor das palavras*/
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3; /*Cor da borda*/
+}
+
+#lateral ul a:hover {
+    background: #f9f9f9 url(../img/marcador.png) no-repeat left center; /* marcador de fundo*/
+    padding-left: 20px; /*Espaçamento para direita*/
+    color: #a1a1a1; /*Cor de fundo - mause*/
+}
+
+
+/* Formatando formulários
+*/
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    padding: 5px; /*Espaçamento para todos os lados */
+    width: 125px;
+    font-size: 0.9em;
+    background-color: #fff;
+}
+
+input.submit {
+    width: 80px; /*Tamanho da caixinha*/
+    color: #fff; /*Cor de fundo - palavra*/
+    background-color: #b10333; /*Cor de fundo - fundo*/
+    border: 2px solid #870529; /*Cor da borda*/
+    
+}
+
+
+/* Formatando imagens
+*/
+/*img {
+    border: 2px solid #dfdfdf;
+}*/
+
+img.imagem-principal {
+    width: 98%; /*Largura*/
+    border: 3px solid #dfdfdf;
+}
+
+
+/* Formatando cabeçalhos
+*/
+h3 {
+    text-transform: uppercase; /*Letra maiúscula*/
+    display: inline;
+    font-size: 0.8em; /*Tamanho da lestra*/
+    padding: 3px; /*Espaçamento para todos os lados */
+}
+
+.destaque h3 {
+    background: #b10333; /*Cor de fundo*/
+    color: #fff; /*Cor da palavra*/
+}
+
+.entrevista h3 {
+    background: #de003e; /*Cor de fundo*/
+    color: #fff; /*Cor da palavra*/
+}
+
+
+/* Formatando lista de notícias
+*/
+#lista-noticias li {
+    padding: 2px; /*Espaçamento para todos os lados */
+    border-bottom:1 px solid #ccc;
+    height: 62px; /*Altura*/
+}
+
+#lista-noticias li a img {
+    float: left; /*coloca lado a lado*/
+    margin: 5px; /*Espaçamento para todos os lados*/
+}
+
+#lista-noticias li a {
+    text-decoration: none;
+}
+
+#lista-noticias li a h3 {
+    font-size: 0.8em;/*Tamanho das palavras*/
+    padding: 0; 
+    color: #3e7ab9;
+}
+
+#lista-noticias li a p {
+    font-size: 0.7em;/*Tamanho das palavras*/
+    color: #000; /*Cor no link*/
+}
+
+#lista-noticias li:hover {
+    background: #eee;
+    cursor: pointer;
+}
+
+
+
+/* Rodapé
+*/
+#container-rodape {
+    background: #294c71;
+    padding: 20px; /*Espaçamento para todos os lados */
+}
+
+#rodape {
+    width: 750px; /*Largura*/
+    margin: 0 auto; /*Centraliza o texto*/
+    color: #fff; /*Cor das palavras*/
+}
