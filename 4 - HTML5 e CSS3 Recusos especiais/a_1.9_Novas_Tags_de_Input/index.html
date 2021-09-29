@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Estilo CSS -->
+    <link rel="stylesheet" type="text/css" href="./css/estilo.css" />
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css" />
+    <title>Novas Tags de input html 5</title>
+  </head>
+  <body>
+    <form>
+      <!-- Novos Inputs e atributos HTML 5 -->
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" required autofocus /><br /><br />
+
+      <!-- Email -->
+      <label for="nome">Email</label>
+      <input type="email" id="email" required /><br /><br />
+
+      <!-- Número -->
+      <label for="numero">Numero</label>
+      <input type="number" id="numero" min="5" max="10" step="5" /><br /><br />
+
+      <!-- Url -->
+      <label for="url">URL</label>
+      <input type="url" id="url" placeholder="ex: http://www..." /><br /><br />
+
+      <!-- Pesquisa -->
+      <label for="pesqisa">Pesquisa</label>
+      <input type="pesqisa" id="pesqisa" /><br /><br />
+
+      <!-- Range -->
+      <label for="range">Range</label>
+      <input type="range" id="range" min="1" max="20" value="2" /><br /><br />
+
+      <!-- Data -->
+      <label for="data">Data</label>
+      <input type="date" id="data" /><br /><br />
+
+      <!-- Cor -->
+      <label for="cor">Cor</label>
+      <input type="color" id="cor" /><br /><br />
+
+      <input type="submit" id="enviar" />
+    </form>
+  </body>
+</html>
