@@ -23,6 +23,6 @@
     <dt><strong>JavaScript Moderno (ECMAScript 2015 - ES6) e Orientação a Objetos ✔️<strong></dt>
     <dt><strong>JQuery 📚<strong></dt>
     <dt><strong>Python ✔️<strong></dt>
-    <dt><strong>Django<strong></dt>
+    <dt><strong>Django ✔️<strong></dt>
 </dl>
 <h4>Instrutor - Jamilton Damasceno. | Udemy</h4>
