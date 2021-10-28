@@ -1,0 +1,23 @@
+* {
+	font-size: 30px;
+}
+
+#conteudo {
+	position: absolute;
+	border: 1px solid #9c6a00;
+	background-color: #ffae00;
+	padding: 30px;
+}
+
+.destaque {
+	border: 1px solid red;
+}
+
+.esconder{
+	display: none;
+}
+
+ul li {
+	background-color: gray;
+	color: blue;
+}
