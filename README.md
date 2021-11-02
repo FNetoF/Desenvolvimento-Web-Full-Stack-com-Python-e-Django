@@ -1,6 +1,6 @@
 ## Desenvolvimento Web Full Stack com Python e Django
 
-> Status: Developing 📚
+> Status: finished ✔️
 
 ### <strong>Confira abaixo os cursos e os projetos do pacote de Desenvolvimento Web Com Python e Django:</strong>
 
@@ -13,7 +13,7 @@
         <dd>- Projeto TecBlog (Blog de tecnologia) ✔️</dd>
     <dt><strong>CSS3 Intermediário & avançado ✔️ <strong></dt>
          <dd>- Projeto Notícias da Cidade (Portal de notícias) ✔️</dd>
-         <dd>- Projeto Chalé Hotel (Página publicitária)</dd>
+         <dd>- Projeto Chalé Hotel (Página publicitária) ✔️</dd>
     <dt><strong>HTML5 e CSS3 - Recursos especiais ✔️<strong></dt>
          <dd>- Projeto Museu Nacional ✔️</dd>
     <dt><strong>Bootstrap 4 & Design responsivo ✔️<strong></dt>
@@ -21,8 +21,13 @@
           <dd>- Spotify Clone ✔️</dd>
     <dt><strong>JavaScrip ✔️<strong></dt>
     <dt><strong>JavaScript Moderno (ECMAScript 2015 - ES6) e Orientação a Objetos ✔️<strong></dt>
-    <dt><strong>JQuery 📚<strong></dt>
+    <dt><strong>JQuery ✔️<strong></dt>
     <dt><strong>Python ✔️<strong></dt>
     <dt><strong>Django ✔️<strong></dt>
 </dl>
-<h4>Instrutor - Jamilton Damasceno. | Udemy</h4>
+<h4>Instrutor - Jamilton Damasceno. | Udemy</h4><br>
+
+### Certificado de conclusão
+<br>
+
+![certificado](https://user-images.githubusercontent.com/60360540/139878444-484e03d9-58a1-4691-b0de-ed34c6ec994e.jpg)
